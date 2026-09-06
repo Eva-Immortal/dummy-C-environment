@@ -13,14 +13,26 @@ export const C_PLUS_PLUS_TEMPLATES: Template[] = [
 #include <iostream>
 #include <vector>
 #include <string>
-using namespace std;
 
 int main() {
-    cout << "========================================" << endl;
-    cout << " Hello Dr Ganesh, Welcome to our CloudLab!!!" << endl;
-    cout << "========================================" << endl;
+    std::cout << "========================================" << std::endl;
+    std::cout << " Welcome to Modern C++ Online IDE!     " << std::endl;
+    std::cout << "========================================" << std::endl;
 
-  
+    std::vector<std::string> features = {
+        "Fast Native GCC 12 Compilation",
+        "Modern Standards (C++17, C++20, C++23)",
+        "Standard Input (cin) Support",
+        "Multi-file & Custom Headers",
+        "Instant Error Diagnostics & Jump-to-Line"
+    };
+
+    std::cout << "\\nFeatures available:\\n";
+    for (size_t i = 0; i < features.size(); ++i) {
+        std::cout << "  [" << (i + 1) << "] " << features[i] << "\\n";
+    }
+
+    std::cout << "\\nHappy coding in C++!\\n";
     return 0;
 }
 `,
