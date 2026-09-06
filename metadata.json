@@ -1,0 +1,6 @@
+{
+  "name": "C++ Online Compiler & IDE",
+  "description": "An interactive C++ online editor and compiler supporting modern C++ standards, standard input, error diagnostics, and code execution.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
